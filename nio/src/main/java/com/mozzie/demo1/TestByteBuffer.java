@@ -32,7 +32,7 @@ public class TestByteBuffer {
      */
     public static void main(String[] args) {
         // 创建一个文件输入流
-        try (FileChannel fileChannel = new FileInputStream("file/TestByteBuffer.txt").getChannel()) {
+        try (FileChannel fileChannel = new FileInputStream("nio/file/TestByteBuffer.txt").getChannel()) {
             // 创建一个输入缓冲区
             ByteBuffer buffer = ByteBuffer.allocate(5);
             while (true) {
