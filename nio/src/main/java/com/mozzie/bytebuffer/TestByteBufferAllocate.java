@@ -1,4 +1,4 @@
-package com.mozzie.demo1;
+package com.mozzie.bytebuffer;
 
 import java.nio.ByteBuffer;
 

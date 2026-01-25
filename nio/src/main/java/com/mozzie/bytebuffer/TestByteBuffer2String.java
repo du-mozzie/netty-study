@@ -1,6 +1,5 @@
-package com.mozzie.demo1;
+package com.mozzie.bytebuffer;
 
-import java.io.UnsupportedEncodingException;
 import java.nio.ByteBuffer;
 import java.nio.charset.StandardCharsets;
 
@@ -9,7 +8,7 @@ import java.nio.charset.StandardCharsets;
  * @date : 2026/1/21 0:31
  */
 public class TestByteBuffer2String {
-    public static void main(String[] args) throws UnsupportedEncodingException {
+    public static void main(String[] args) {
         ByteBuffer buffer1 = StandardCharsets.UTF_8.encode("你好");
 
         ByteBuffer buffer2 = ByteBuffer.allocate(10);
