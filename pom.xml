@@ -11,6 +11,7 @@
     <modules>
         <module>nio</module>
         <module>netty</module>
+        <module>chat</module>
     </modules>
 
     <properties>
@@ -23,7 +24,7 @@
         <dependency>
             <groupId>io.netty</groupId>
             <artifactId>netty-all</artifactId>
-            <version>4.1.68.Final</version>
+            <version>4.1.39.Final</version>
         </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
@@ -31,14 +32,24 @@
             <version>1.18.38</version>
         </dependency>
         <dependency>
-            <groupId>cn.hutool</groupId>
-            <artifactId>hutool-all</artifactId>
-            <version>5.8.3</version>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.8.5</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>19.0</version>
         </dependency>
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
-            <version>1.2.11</version>
+            <version>1.2.3</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google.protobuf</groupId>
+            <artifactId>protobuf-java</artifactId>
+            <version>3.11.4</version>
         </dependency>
     </dependencies>
     
